@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.code-display {
+    width: 90vw;
+}
+
+.save-btn {
+  width: 100%;
+  background-color: #79018C;
+  color: white;
+}
+
+.text-area {
+    margin-top: 3px;
+    resize: none;
+    font-size: large;
+    color: white;
+    width: 80vw;
+    min-height: 80vh;
+    padding: 0px 5px 0px 5px;
+    background: transparent;
+    padding: 0;
+    border: none;
+    outline: none;
+}
