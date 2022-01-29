@@ -10,7 +10,7 @@ function NewDoc() {
   const [doc, setDoc] = useState("Welcome new document");
 
   const saveDoc = async() => {
-      const url = "http://codeshare11.herokuapp.com/save";
+      const url = "https://codeshare11.herokuapp.com/save";
 
       await axios
         .post(url, {
